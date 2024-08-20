@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="Portfolio.css"  type="text/css" rel="stylesheet">
+        <title>
+            Fernanda Zamboni's Portfolio
+        </title>
+    </head>
+    <body>
+    <main>    
+        <header>
+            <nav>
+                
+            <ul>
+                <nav class="topnav" id="portfolioTopnav"></nav>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Accomplishments">Accomplishments</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i></a>
+            </ul>
+            </nav>
+        </header>
+        <header>
+        <h1 class="bold centered">Fernanda Zamboni</h1>
+        </header>
+        <div id="aboutsection">
+            <a href="https://www.qut.edu.au/about/our-people/academic-profiles/fernanda.zamboni" target="_blank">
+            <img src="ID acsl qut.jpg" alt="Fernanda profile picture." width="200" height="250"/></a>
+            <h2 class="heading">About</h2>
+            <p>Currently Dr Zamboni is a postdoctoral research fellow at <strong>Queensland University of Technology</strong>. She graduated in Pharmacy from the Federal University of Rio Grande do Sul and then moved to Ireland to pursue a M.Sc degree in Biomedical Device Materials at the University of Limerick. She was awarded the highly competitive Government of Ireland International Education Scholarship and graduated with a <em>First-Class Honour’s</em> degree. In 2021, Dr Zamboni obtained her doctorate degree in Biomedical Engineering from the University of Limerick. During her doctoral studies, Fernanda was awarded the Irish Research Council Postgraduate Scholarship and the ERASMUS+ Traineeship mobility grant, which allowed her to conducted part of her Ph.D. project in collaboration with the I3B’s Research Group (Biomaterials, Biodegradables and Biomimetics) at the University of Minho, Portugal. In 2021, Dr Zamboni was awarded the prestigious Irish Research Council Postdoctoral Fellowship for the period of 2 years. During her postdoctoral project, she spent one year abroad, at the Chinese University of Hong Kong, working at the Department of Chemical Pathology at the Prince of Wales Hospital.</p>
+            <br>
+            <h3>Skills</h3>
+            <h4>Research skills</h4>
+            <ul class="list">
+            <li>Project Management</li>
+            <li>Risk Assessment</li>
+            <li>Data collection</li>
+            <li>Data Analysis</li>
+            <li>Report Writing</li>
+            </ul>
+            <h4>Interpersonal skills</h4>
+            <ul class="list">
+            <li>Team Work</li>
+            <li>International Collaborations</li>
+            <li>Mentorship</li>
+            <li>Supervision</li>
+            </ul>
+            <h4>Technical skills</h4>
+            <ul class="list">
+            <li>Mechanical Testing of Materials</li>
+            <li>Confocal Microscopy</li>
+            <li>Scanning Electron Micrposcopy</li>
+            <li>Rheology</li>
+            <li>Cell Culture</li>
+            <li><em>In vivo</em> testing</li>
+            </ul>
+        </div>
+        <!--My accomplishments-->
+        <div id="accomplishmentsection">
+            <h2>Acomplishments</h2>
+            <table>
+                <tr>
+                    <th>Publications</th>
+                    <th>Awards</th>
+                    <th>Conferences</th>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>5</td>
+                    <td>42</td>
+                </tr>
+            </table>
+            <h3>Do you know Fernanda?</h3>
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+        </div>
+        <div id="Contactsection">
+            <h2 class="contactform">Contact</h2>
+            <a href="https://www.linkedin.com/in/fernanda-zamboni-cahill/" target="_blank">
+            <li>LinkedIn.</a> 
+        <form>
+            <label for="name">*First name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">*Email:</label><br>
+            <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z{2,}$]"><br><br>
+            <label for="mobile">Mobile (optional):</label><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10,16}"><br><br>
+        </form>
+        <form action="/submit" method="post">
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter your comments here..." required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+        </main>
+        <footer>Email me at <a href="mailto:Fernanda.Zamboni@qut.edu.au"> Fernanda.Zamboni@qut.edu.au</a></footer>
+        </body>
+</html>
